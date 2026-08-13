@@ -226,7 +226,11 @@ Join our **AI Tool Monetization Circle** (AI 工具变现实战圈) on Knowledge
 - AI tool monetization strategies and playbooks
 - 1-on-1 technical Q&A
 
-> Scan the QR code below or search "AI 工具变现实战圈" on Knowledge Planet to join.
+<p align="center">
+  <img src="docs/knowledge-planet-qr.png" alt="知识星球二维码" width="200">
+</p>
+
+> Scan the QR code above or search "AI 工具变现实战圈" on Knowledge Planet to join.
 
 ## License
 
