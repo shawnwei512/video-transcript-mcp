@@ -217,6 +217,17 @@ URL Input
 | Local files | N/A | ✅ | mp3, mp4, wav, m4a, flac |
 | Podcast URLs | ✅ | ✅ | Direct audio download |
 
+## Community
+
+Join our **AI Tool Monetization Circle** (AI 工具变现实战圈) on Knowledge Planet (知识星球):
+
+- Weekly MCP tutorials and real-world case studies
+- Deep-dive source code analysis of this project
+- AI tool monetization strategies and playbooks
+- 1-on-1 technical Q&A
+
+> Scan the QR code below or search "AI 工具变现实战圈" on Knowledge Planet to join.
+
 ## License
 
 MIT
