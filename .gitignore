@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+*.whl
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test
+.pytest_cache/
+.coverage
+htmlcov/
+.ruff_cache/
+
+# Output
+transcripts/
+checkpoint_*.json
+*.wav
+*.mp3
+*.m4a
+*.mp4
+*.srt
+*.vtt
+
+# Environment
+.env
+.env.local

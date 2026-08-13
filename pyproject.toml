@@ -1,0 +1,53 @@
+[project]
+name = "video-transcript-mcp"
+version = "0.1.0"
+description = "A Model Context Protocol server for video/audio transcription with multi-platform support"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "weishaoqing" }]
+keywords = ["mcp", "model-context-protocol", "video-transcription", "whisper", "subtitle-extraction", "youtube", "bilibili"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Multimedia :: Video",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "mcp>=1.28",
+    "pydantic>=2.0",
+]
+
+[project.optional-dependencies]
+whisper = [
+    "faster-whisper>=1.0",
+]
+dev = [
+    "mcp[cli]>=1.28",
+    "pytest>=8.0",
+    "pytest-asyncio>=0.23",
+    "ruff>=0.4",
+]
+
+[project.urls]
+Homepage = "https://github.com/shawnwei512/video-transcript-mcp"
+Repository = "https://github.com/shawnwei512/video-transcript-mcp"
+Issues = "https://github.com/shawnwei512/video-transcript-mcp/issues"
+
+[project.scripts]
+video-transcript-mcp = "video_transcript_mcp.server:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/video_transcript_mcp"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
